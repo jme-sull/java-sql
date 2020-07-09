@@ -200,29 +200,29 @@ Below are some empty tables to be used to normalize the database
 * Not all of the cells will contain data in the final solution
 * Feel free to edit these tables as necessary
 
-Table Name:
+Table Name: People
 
-|            |            |            |            |            |            |            |            |            |
+|    Owner Id |  Name       | Fenced Yard | City Dweller  |            |            |
 |------------|------------|------------|------------|------------|------------|------------|------------|------------|
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
+|      1     |Jane        |     No     |  Yes     |            |            |            |            |            |
+|      2     |Bob         |     No     |  No        |            |            |            |            |            |
+|      3     |Sam         |   Yes      |  No        |            |            |            |            |            |
 |            |            |            |            |            |            |            |            |            |
 |            |            |            |            |            |            |            |            |            |
 |            |            |            |            |            |            |            |            |            |
 |            |            |            |            |            |            |            |            |            |
 
-Table Name:
+Table Name: Pets
 
-|            |            |            |            |            |            |            |            |            |
+|  Id    |      Name      | Owner Id   |    Type     |            |            |            |            |            |
 |------------|------------|------------|------------|------------|------------|------------|------------|------------|
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
+|  1         | Ellie      |      1     |    Dog       |            |            |            |            |            |
+|  2         | Joe        |      2     |    Horse        |            |            |            |            |            |
+|  3         | Ginger     |      3     |    Dog        |            |            |            |            |            |
+|  4         | Tiger      |      1     |    Cat        |            |            |            |            |            |
+|  5         | Miss Kitty  |     3     |    Cat        |            |            |            |            |            |
+|  6         | Toby        |     1     |    Turtle        |            |            |            |            |            |
+|  7         | Bubble      |     3     |    Fish        |            |            |            |            |            |
 
 Table Name:
 
